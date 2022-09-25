@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>z-index 1</title>
+        
+        <style>
+            .container {
+                position: relative;
+                padding-top: 50px;
+                margin-left: 40%;
+                margin-top: 10%;
+            }
+
+            img {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                z-index: 2;
+            }
+
+            p {
+                position: absolute;
+                z-index: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <img src="https://www.w3schools.com/css/img_tree.png" alt="img" />
+            <p>z-index property is cool!</p>
+        </div>
+    </body>
+</html>

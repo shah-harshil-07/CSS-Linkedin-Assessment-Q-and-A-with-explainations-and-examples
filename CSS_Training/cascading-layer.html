@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <style>
+            p {
+                color: rebeccapurple;
+            }
+
+            @layer type {
+                .box p {
+                    font-weight: bold;
+                    font-size: 1.3em;
+                    color: green;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <p>Hello, world!</p>
+        </div>
+    </body>
+</html>

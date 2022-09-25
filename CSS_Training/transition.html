@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Transition examples</title>
+
+        <style>
+            input[type=checkbox] {
+                width: 100px;
+                height: 100px;
+                transition: margin 1000ms ease-in;
+            }
+
+            input[type=checkbox]:checked {
+                margin: 200px;
+            }
+
+            .container {
+                width: 150px;
+                height: 150px;
+                margin-left: 300px;
+                background-color: blueviolet;
+                transition: background-color 1.3s ease-in;
+            }
+
+            .container:hover {
+                background-color: crimson;
+            }
+
+            .container-2 {
+                width: 200px;
+                height: 200px;
+                float: right;
+                background-color: cadetblue;
+                opacity: 0.7;
+                transition: opacity 1s ease-in;
+            }
+
+            .container-2:hover {
+                opacity: 0.1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <input type="checkbox" />
+
+        <div class="container">
+            <div>transition: color 1.3s ease-in</div>
+
+            <div style="margin-top: 20px">
+                hover over the container to see the effect
+            </div>
+        </div>
+
+        <div class="container-2">
+            <div>transition: opacity 1s ease-in</div>
+
+            <div style="margin-top: 20px">
+                hover over the container to see the effect
+            </div>
+        </div>
+    </body>
+</html>

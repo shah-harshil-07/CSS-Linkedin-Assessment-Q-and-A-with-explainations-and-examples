@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>z-index 2</title>
+
+        <style>
+            #container {
+                position: relative;
+                margin-left: 40%;
+                margin-top: 10%;
+            }
+
+            .box {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                border: 2px solid black;
+            }
+
+            #div-1 {
+                background-color: rgb(138, 43, 226);
+                z-index: -1;
+            }
+
+            #div-2 {
+                background-color: rgb(107, 142, 35);
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+
+            #div-3 {
+                background-color: rgb(127, 255, 212);
+                margin-top: 60px;
+                margin-left: 60px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div class="box" id="div-1">div - 1</div>
+            <div class="box" id="div-2">div - 2</div>
+            <div class="box" id="div-3">div - 3</div>
+        </div>
+    </body>
+</html>

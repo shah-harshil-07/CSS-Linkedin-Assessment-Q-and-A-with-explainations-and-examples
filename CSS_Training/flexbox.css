@@ -1,0 +1,247 @@
+#heading {
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 50px;
+    margin-left: 150px;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.label {
+    border: 2px solid black;
+    width: 100%;
+    height: 20px;
+    background-color: pink;
+    text-align: center;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.number-label {
+    float: left;
+    font-weight: bold;
+    color: crimson;
+}
+
+#container-1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#container-2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#container-3 {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#container-4 {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#container-5 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+#container-6 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#container-7 {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+#container-8 {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#container-9 {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+}
+
+#container-10 {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+
+#container-11 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 350px;
+}
+
+#container-12 {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 350px;
+}
+
+#container-13 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container-14 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#container-15 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#container-16 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#container-17 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 150px;
+}
+
+#container-18 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    height: 150px;
+}
+
+#container-19 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 150px;
+}
+
+#container-20 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 150px;
+}
+
+#container-21 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 150px;
+}
+
+#container-22 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 150px;
+}
+
+#container-23 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 150px;
+}
+
+#container-24 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 150px;
+}
+
+#container-25 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 150px;
+}
+
+#container-26 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 150px;
+}
+
+#container-27 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+#container-28 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+#container-29 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 150px;
+}
+
+#container-30 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.single-grow {
+    flex-grow: 1;
+}
+
+#item-3 {
+    flex-grow: 2;
+}
+
+#item-4 {
+    align-self: flex-end;
+    width: auto;
+}

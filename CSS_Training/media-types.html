@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Media Types</title>
+
+        <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+
+        <style>
+            body {
+                background-color: lightblue;
+            }
+
+            @media screen and (min-width: 400px) {
+                body {
+                    background-color: lightgreen;
+                }
+            }
+
+            @media screen and (min-width: 800px) {
+                body {
+                    background-color: lavender;
+                }
+            }
+
+            @media screen and (orientation: portrait) and (min-width: 400px) {
+                body {
+                    background-color: cornflowerblue;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Media Queries & Types</h2>
+
+        <p>
+            Adjust the screen width and see the change in background effects by changing the viewport size.
+            You may also see the changes in background color if you apply mobile screen on the browser.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Selectors</title>
+
+        <style>
+            div p {
+                color: blue;
+            }
+
+            #div1 > span {
+                color: brown;
+            }
+
+            #div3 + .p3 {
+                color: darkgoldenrod;
+            }
+
+            .p3 ~ .p4 {
+                color: hotpink;
+            }
+
+            .p4::first-letter {
+                color: black;
+            }
+
+            a:hover {
+                color: darkslategrey;
+            }
+
+            .c1 {
+                color: darkviolet;
+                margin-top: 30px;
+            }
+
+            .c2 {
+                color: darkviolet;
+                margin-top: 30px;
+            }
+
+            .c1.c2 {
+                color: darkcyan;
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="div1">
+            <p id="p1">
+                Hello World
+                <span id="span1">inner element</span>
+            </p>
+            <span>outer element</span>
+        </div>
+
+        <p id="p2">Hello Asia</p>
+
+        <div id="div3">
+            <p class="p3">Hello India</p>
+            <p class="p4">Hello Gujarat</p>
+            <p class="p4">Hello West Gujarat</p>
+        </div>
+        <p class="p3">Hello Ahmedabad</p>
+        <p class="p3">Hello West Ahmedabad</p>
+
+        <a href="#" target="_blank">Hello Vastrapur</a>
+
+        <div id="div4" class="c1 c2">
+            Hello Satellite Center
+        </div>
+    </body>
+</html>

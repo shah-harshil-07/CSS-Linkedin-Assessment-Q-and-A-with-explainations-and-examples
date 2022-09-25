@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Transformation - 02</title>
+
+        <style>
+            .container {
+                margin-top: 100px;
+                margin-left: 250px;
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+
+            .original-element {
+                width: 78px;
+                height: 78px;
+                border: 2px solid black;
+            }
+
+            .transform-box {
+                width: 80px;
+                height: 80px;
+                background-color: rgb(127, 255, 0, 0.75);
+                font-size: 10px;
+            }
+
+            #transform-1 {
+                transform: scale(1.5);
+                transform-origin: 0% 0%;
+            }
+
+            #transform-2 {
+                transform: scale(1.5);
+                transform-origin: 100% 100%;
+            }
+
+            #transform-3 {
+                transform: rotate(45deg);
+                transform-origin: 0% 0%;
+            }
+
+            #transform-4 {
+                transform: rotate(-45deg);
+                transform-origin: 100% 0%;
+            }
+
+            #transform-5 {
+                transform: scale(1.5);
+                transform-origin: 50% 50%;
+            }
+
+            #transform-6 {
+                transform: rotate(45deg);
+                /* transform-origin: 50% 50%; */
+            }
+        </style>
+    </head>
+
+    <body class="container">
+        <div class="original-element">
+            <div class="transform-box" id="transform-1">
+                transform: scale(1.5),<br />
+                transform-origin: 0% 0%
+            </div>
+        </div>
+
+        <div class="original-element">
+            <div class="transform-box" id="transform-2">
+                transform: scale(1.5),<br />
+                transform-origin: 100% 100%
+            </div>
+        </div>
+
+        <div class="original-element">
+            <div class="transform-box" id="transform-3">
+                transform: rotate(45deg),<br />
+                transform-origin: 0% 0%
+            </div>
+        </div>
+
+        <div class="original-element">
+            <div class="transform-box" id="transform-4">
+                transform: rotate(-45deg),<br />
+                transform-origin: 100% 0%
+            </div>
+        </div>
+
+        <div class="original-element">
+            <div class="transform-box" id="transform-5">
+                transform: scale(1.5),<br />
+                transform-origin: 50% 50%
+            </div>
+        </div>
+
+        <div class="original-element">
+            <div class="transform-box" id="transform-6">
+                transform: rotate(45deg),<br />
+                transform-origin: 50% 50%
+            </div>
+        </div>
+    </body>
+</html>

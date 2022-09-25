@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Variables</title>
+
+        <style>
+            :root {
+                --globalColor: yellow;
+            }
+
+            ul {
+                --color: red
+            }
+
+            p {
+                color: var(--color, var(--globalColor));
+            }
+
+            a {
+                color: var(--color, orange);
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>Paragraph</p>
+
+        <ul>
+            <li><a href="#">list item in a link</a></li>
+            <li>list item</li>
+        </ul>
+    </body>
+</html>
